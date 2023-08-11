@@ -34,3 +34,5 @@ services:
     volumes:
       - static:/static
       - media:/media/cats/images/
+    depends_on:
+      - backend
