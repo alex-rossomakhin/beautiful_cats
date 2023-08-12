@@ -87,7 +87,7 @@ jobs:
           tags: alexrossom/kittygram_backend:latest
   frontend_tests:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/develop'
     steps:
     - uses: actions/checkout@v3
     - name: Set up nodeJS
@@ -196,7 +196,7 @@ jobs:
   send_message:
     runs-on: ubuntu-latest
     needs: deploy
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/develop'
     steps:
     - name: Send message
       uses: appleboy/telegram-action@master
