@@ -11,7 +11,8 @@
 
 ## Запуск проекта
 
-Скачайте docker-compose.yml из репозитория https://github.com/alex-rossomakhin/kittygram/blob/main/docker-compose.yml
+Скачайте [docker-compose.yml](https://github.com/alex-rossomakhin/kittygram/blob/main/docker-compose.yml) из репозитория 
+
 Создайте файл .env
 
 ```bash
