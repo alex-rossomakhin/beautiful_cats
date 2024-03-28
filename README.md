@@ -49,4 +49,4 @@ sudo docker compose -f docker-compose.yml exec backend cp -r /app/collected_stat
 
 ## Автор
 
-@alex-rossomakhin
+https://github.com/alex-rossomakhin
