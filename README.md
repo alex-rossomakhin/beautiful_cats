@@ -1,4 +1,4 @@
-#  Kittygram - социальная сеть для размещение фотографий домашних животных.
+#  Beautiful cats - социальная сеть для размещение фотографий домашних животных.
 
 ## Описание проекта
 
@@ -11,7 +11,7 @@
 
 ## Запуск проекта
 
-Скачайте [docker-compose.yml](https://github.com/alex-rossomakhin/kittygram/blob/main/docker-compose.yml) из репозитория 
+Скачайте [docker-compose.yml](https://github.com/alex-rossomakhin/beautiful_cats/blob/main/docker-compose.production.yml) из репозитория 
 
 Создайте файл .env
 
