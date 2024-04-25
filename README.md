@@ -1,13 +1,18 @@
 #  Beautiful cats - социальная сеть для размещение фотографий домашних животных.
 
-## Описание проекта
+## Описание 
 
 Проект, где пользователю доступна регистрация, добавление фотографий и описания достижений котов. Так же есть возможность просматривать фотографии других котов.
 Запуск проекта происходит через Docker
 
 ## Технологии
 
-• Python 3.9 • Django==3.2.3 • djangorestframework==3.12.4 • nginx • gunicorn==20.1.0 • djoser==2.1.0
+* Python 3.9
+* Django==3.2.3
+* djangorestframework==3.12.4
+* nginx
+* gunicorn==20.1.0
+* djoser==2.1.0
 
 ## Запуск проекта
 
@@ -50,4 +55,4 @@ sudo docker compose -f docker-compose.yml exec backend cp -r /app/collected_stat
 
 ## Автор
 
-[alex-rossomakhin](https://github.com/alex-rossomakhin)
+[Alexey Rossomakhin](https://github.com/alex-rossomakhin)
